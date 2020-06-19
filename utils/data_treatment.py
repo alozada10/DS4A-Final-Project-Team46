@@ -3,6 +3,8 @@ import pandas
 import logging
 from jobs.user_value_propen.targets.snowflake_target_factory import SnowflakeTargetFactory
 
+print('Hola mundo')
+
 snowflake_target = SnowflakeTargetFactory.build()
 
 
