@@ -11,12 +11,6 @@ __pycache__/
 *.pkl
 *.npy
 *.ymlTMP
-jobs/consolidation_next_purchase/modelos-ml/
-jobs/xselling_one_vertical/modeling/
-jobs/xselling_two_verticals/modeling/
-jobs/lifetime_value/modeling/
-jobs/lifetime_value/th
-jobs/upload_s3.py
 user_value_propen
 data
 services
