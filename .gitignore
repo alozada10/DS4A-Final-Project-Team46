@@ -16,9 +16,15 @@ data
 services
 exceptions
 targets
+model
+model_2020-07-03
+cnc_profesiones_cargos_2020-07-17
+
 
 # C extensions
 *.so
+*.ipynb
+*.zip
 
 # Distribution / packaging
 .Python

@@ -1,30 +1,34 @@
-import _pickle as c_pickle
 import os
+from jobs.tender_profile_extractor import settings
 
 
-# Saves file in specific directory
-def save(object_to_save,
-         dir_path,
-         file_name):
+# Gets path
+def get_path(tender_id: int = None,
+             document_id: int = None,
+             page_id: int = None) -> str:
+    path = "../data/Soportes/{}/{}/page_{}.txt".format(str(tender_id), str(document_id), str(page_id))
 
-    # Verify the existence of the directory if it does not exist then create it
-    if not os.path.exists(dir_path):
-        os.makedirs(dir_path)
-    # To save
-    path = dir_path + '/' + file_name
-    # Save func
-    c_pickle.dump(object_to_save, open(path, 'wb'))
+    return path
 
 
-# Reads file from pickle
-def read(path):
-    # List with all the model names
-    return c_pickle.load(open(path, 'rb'))
+def get_all_pages(path: str = settings.TENDERS_PATH,
+                  save_dir_path: str = settings.DATA_FRAMES_PATH,
+                  name: str = settings.ALL_PAGES_DF_NAME):
+    result = None
+    for roots, dirs, files in os.walk(path, topdown=False):
+        for document in files:
+            if 'page' in document:
+                single_page = roots.replace('\\', '/') + '/' + document
+                tender_id = int(single_page.split('/')[3])
+                document_id = int(single_page.split('/')[4])
+                page = int(single_page.split('/')[5].split('_')[1].split('.')[0])
 
+                temp = pd.DataFrame([[tender_id, document_id, page]], columns=['TENDER_ID', 'DOCUMENT_ID', 'PAGE_ID'])
 
-# Reads file to string
-def read_file(loc_file):
-    with open(loc_file, 'r') as my_file:
-        data = my_file.read()
-    return data
+                result = pd.concat([result, temp])
 
+    if not os.path.exists(save_dir_path):
+        os.makedirs(save_dir_path)
+
+    result = result.reset_index().drop(columns='index')
+    result.to_csv(save_dir_path + '/' + name, index=False)
