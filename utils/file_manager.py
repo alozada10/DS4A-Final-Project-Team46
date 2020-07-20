@@ -1,12 +1,14 @@
 import os
 from jobs.tender_profile_extractor import settings
+import pandas as pd
 
 
 # Gets path
 def get_path(tender_id: int = None,
              document_id: int = None,
-             page_id: int = None) -> str:
-    path = "../data/Soportes/{}/{}/page_{}.txt".format(str(tender_id), str(document_id), str(page_id))
+             page_id: int = None,
+             path: str = settings.TENDERS_PATH) -> str:
+    path = "{}/{}/{}/page_{}.txt".format(path, str(tender_id), str(document_id), str(page_id))
 
     return path
 
@@ -18,10 +20,12 @@ def get_all_pages(path: str = settings.TENDERS_PATH,
     for roots, dirs, files in os.walk(path, topdown=False):
         for document in files:
             if 'page' in document:
+                roots = roots.replace('\\', '/')
                 single_page = roots.replace('\\', '/') + '/' + document
-                tender_id = int(single_page.split('/')[3])
-                document_id = int(single_page.split('/')[4])
-                page = int(single_page.split('/')[5].split('_')[1].split('.')[0])
+
+                tender_id = int(single_page.split('/')[-3:][0])
+                document_id = int(single_page.split('/')[-2:][0])
+                page = int(single_page.split('/')[-1:][0].split('_')[1].split('.')[0])
 
                 temp = pd.DataFrame([[tender_id, document_id, page]], columns=['TENDER_ID', 'DOCUMENT_ID', 'PAGE_ID'])
 

@@ -4,15 +4,18 @@ from PIL import Image
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
 import pytesseract
+import pandas as pd
+from jobs.tender_profile_extractor import settings
 
 
 def get_documents(path: str = "../data/Soportes") -> dict:
     results = {}
     for root, dirs, files in os.walk(path):
+        root = root.replace('\\', '/')
         if len(files) > 0:
-            results[int(root.split('/')[1])] = files
+            results[int(root.split('/')[-1:][0])] = files
         else:
-            print('The * ' + root + '* has no files')
+            print('The * ' + root + ' * has no files')
             continue
     return results
 
@@ -39,7 +42,7 @@ def pdf_to_txt(pdf_path: str = None,
                document_id: int = None,
                path: str = "../data/Soportes",
                resolution: int = 500,
-               bin_path: str = "../../Downloads/poppler-0.68.0_x86/poppler-0.68.0/bin",
+               bin_path: str = "../../../Downloads/poppler-0.68.0_x86/poppler-0.68.0/bin",
                tysseract_path: str = r"C:\Program Files\Tesseract-OCR\tesseract.exe"):
     pytesseract.pytesseract.tesseract_cmd = tysseract_path
 
@@ -51,6 +54,7 @@ def pdf_to_txt(pdf_path: str = None,
     image_counter = 1
 
     tender_jpg_dir = r"{}/{}/{}".format(path, tender_id, document_id)
+    print(tender_jpg_dir)
     if not os.path.exists(tender_jpg_dir):
         os.makedirs(tender_jpg_dir)
 
@@ -98,3 +102,4 @@ def convert_documents_to_txt(path: str = "../data/Soportes",
                    document_id=document_id,
                    path=path,
                    resolution=resolution)
+

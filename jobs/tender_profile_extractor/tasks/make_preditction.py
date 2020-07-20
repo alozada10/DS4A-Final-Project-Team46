@@ -1,5 +1,6 @@
 import spacy
 from utils import file_manager as fm
+import pandas as pd
 
 
 def extract_profession(text: str = None,

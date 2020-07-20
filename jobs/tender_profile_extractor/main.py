@@ -7,7 +7,7 @@ from jobs.tender_profile_extractor.tasks import pdf_to_txt, make_preditction
 from jobs.tender_profile_extractor import settings
 from utils import file_manager
 
-# Omit warnings
+# omit warnings
 warnings.filterwarnings(settings.WARNINGS)
 
 if __name__ == '__main__':
@@ -20,9 +20,13 @@ if __name__ == '__main__':
                                name=settings.ALL_PAGES_DF_NAME)
     print('Se crea bien el df con todas las pages')
 
-    x = pd.read_csv(settings.DATA_FRAMES_PATH+settings.ALL_PAGES_DF_NAME)
+    x = pd.read_csv(settings.DATA_FRAMES_PATH+'/'+settings.ALL_PAGES_DF_NAME)
+
+    print(x.columns)
 
     tenders = x.TENDER_ID.unique()
+
+    print(tenders)
 
     final_prediction = None
     for tender in tenders:
@@ -35,6 +39,7 @@ if __name__ == '__main__':
         top_numbers = prediction.sort_values(by='NUMBER', ascending=False).NUMBER.unique()[:settings.TOP_NUMBER_PAGES]
         prediction['PRED'] = [0] * prediction.shape[0]
         prediction['PRED'][prediction.NUMBER.isin(top_numbers)] = 1
+        prediction['PRED'][prediction.NUMBER == 0] = 0
 
         final_prediction = pd.concat([final_prediction, prediction])
 
