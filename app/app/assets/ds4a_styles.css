@@ -1,0 +1,19 @@
+/*This document contains the styles that use the app. You can change these as you wish.*/
+
+.ds4a-style-image {
+    position: fixed;
+    top: 1.5%;
+    left: 80%;
+    bottom: 0;
+    width: 16rem;
+    padding: 2rem 1rem;
+}
+
+.line-style-image {
+    position: fixed;
+    top: 42%;
+    left: 40%;
+    bottom: 0;
+    width: 16rem;
+    padding: 2rem 1rem;
+}

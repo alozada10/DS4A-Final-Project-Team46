@@ -13,5 +13,6 @@ MODEL_PATH = '../../app_data/model'
 MODEL_NAME = 'cnc_profesiones_cargos_2020-07-17'
 TOP_NUMBER_PAGES = 3
 RESULTS_NAME = 'predictions.csv'
-# variables
+#TENDERS_PATH_FRONT = '../../app_data/tenders'
+
 
