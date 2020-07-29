@@ -8,7 +8,6 @@ WARNINGS = 'ignore'
 
 TENDERS_PATH = '../../../app_data/tenders'
 POPPLER_PATH = '../../../app_data/wml/bin'
-TESSERACT_PATH = '../../../app_data/wml/tesseract.exe'
 DATA_FRAMES_PATH = '../../../app_data/data_frames'
 ALL_PAGES_DF_NAME = 'all_pages.csv'
 MODEL_PATH = '../../../app_data/model'
