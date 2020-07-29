@@ -18,7 +18,7 @@ from app import app
 
 UPLOAD_DIRECTORY = settings.TENDERS_PATH_FRONT
 
-from lib1 import title, pictures, upload
+from lib import title, pictures, upload
 
 app.layout = html.Div(
     [
