@@ -1,0 +1,27 @@
+Varios
+
+El diagnostico y soluciOn que aqui se discuten son transversales a todo el curriculo y no podian ser
+
+completamente segregados. Incluyen una habilidad que creemos podria ser mejorada.
+
+8) Escritura cientifica. Diagnéstico y solucion tentativa.
+
+Un obstaculo constante que encuentran los fisicos de semestres avanzados es la escritura de articulos
+y propuestas cientificas. Sabemos que el curso Espafiol (ahora Escritura Universitaria) busca en
+alguna medida atender esta situaciOn, pero su contexto es demasiado general y no se aplica al nuestro.
+Un ejemplo de lo que se deja por fuera podria ser el manejo de ecuaciones en un articulo, los formatos
+de las referencias, las tablas de datos, etc.
+
+Ahora bien, en los cursos experimentales del pregrado tenemos un acercamiento fuerte a la
+escritura de informes de laboratorio; sin embargo, el Unico acercamiento real a la escritura de articulos
+cientificos llega en Laboratorio Intermedio. En nuestra opinion, esta habilidad solo se adquiere con
+practica, por lo que seria bueno implementar mas espacios donde se tenga un acercamiento constante
+
+a este tema. Practica Docente es un ejemplo que se nos ocurre.
+En representacion del grupo Experimental,
+
+Juan Pablo Barrero
+
+Maria Laura Pérez
+
+17

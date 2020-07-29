@@ -1,0 +1,16 @@
+al aumentar los créditos de Herramientas) para ensenar lo basico, algo asi como una version ligera
+del modulo de aprendizaje de maquinas de Computacionales Avanzados.
+
+Por ultimo, de forma transversal se podria imitar una decision pedagogica tomada en Métodos
+Computacionales Avanzados. En este curso se ensefia el manejo del cluster de la universidad al inicio
+del semestre y luego se utiliza a lo largo del semestre para desarrollar ahi los proyectos y tareas. Seria
+bueno implementar esta idea hasta cierto punto en Herramientas y Métodos Computacionales pues
+asi los estudiantes se acostumbrarian al uso de los clusteres al mismo tiempo que aprenden los demas
+
+temas del curso.
+En representacion del grupo Computacional,
+
+Alejandro Lozada
+Nathan Mateo Marin
+
+13

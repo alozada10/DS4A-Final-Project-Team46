@@ -1,6 +1,7 @@
 import os
 from jobs.tender_profile_extractor import settings
 import pandas as pd
+import zipfile
 
 
 # Gets path
@@ -36,3 +37,10 @@ def get_all_pages(path: str = settings.TENDERS_PATH,
 
     result = result.reset_index().drop(columns='index')
     result.to_csv(save_dir_path + '/' + name, index=False)
+
+
+def unzip_delete(path: str = None,
+                 file_name: str = None):
+    with zipfile.ZipFile(path + '/' + file_name, 'r') as zip_ref:
+        zip_ref.extractall(path)
+    os.remove(path + '/' + file_name)

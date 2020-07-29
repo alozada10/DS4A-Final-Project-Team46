@@ -1,0 +1,25 @@
+Propuestas Teoria
+
+El curriculo de la carrera en fisica de la Universidad de los Andes es principalmente tedrico. No solo
+por el numero de cursos de esta naturaleza que se dictan, sino ademas por el enfoque pedagogico que
+se le da a todos los demas: siempre con el andamiaje teorico delante. Y esto es apenas natural, la
+teoria es a la fisica lo que el aire a los pulmones. Sin embargo, sentimos que siempre hay espacio para
+mejorar y sometemos los siguientes casos, con sus respectivos diagnosticos y algunas soluciones, a
+
+su consideracion.
+
+1) Formacion matematica. Diagnostico.
+
+En muchas circunstancias de la ciencia, un fisico se ve enfrentado con un problema matematico de
+envergadura. Y hay ocasiones en donde una aproximacion informal no basta, hace falta entonces tener
+a disposicion, por lo menos, el conjunto basico de herramientas formales para manipular el lenguaje
+matematico. Esto debe incluir rigurosidad, formalismos, y alguna experiencia trabajando con ellos.
+Es por esta razon que consideramos que el curso de Algebra Lineal 2 tiene mucho que aportarle a
+nuestra formacion como fisicos. Sin embargo, la alta tasa de desercion y de estudiantes de fisica que
+reprueban la materia son un signo de alarma desde hace cierto tiempo.
+
+Es especialmente notoria la disparidad que existe entre la preparacion de los estudiantes de
+fisica y los de matematicas, de cara al curso. Al estudiar las habilidades que los prerrequisitos exigen
+a cada tipo de estudiante, se puede detectar que Métodos Matematicos no es comparable con
+
+Matematica Estructural y Algebra Abstracta 1, y mucho menos con el curso de honores de Algebra

@@ -42,7 +42,7 @@ def pdf_to_txt(pdf_path: str = None,
                document_id: int = None,
                path: str = "../data/Soportes",
                resolution: int = 500,
-               bin_path: str = "../../../Downloads/poppler-0.68.0_x86/poppler-0.68.0/bin",
+               bin_path: str = "../../../../Downloads/poppler-0.68.0_x86/poppler-0.68.0/bin",
                tysseract_path: str = r"C:\Program Files\Tesseract-OCR\tesseract.exe"):
     pytesseract.pytesseract.tesseract_cmd = tysseract_path
 

@@ -1,0 +1,39 @@
+antemano sabemos que las encuestas son administradas a nivel de la universidad y no de los
+departamentos. Es por ello que los problemas que vamos a diagnosticar se centran especificamente
+en practicas que el departamento de fisica puede repensar.
+
+Lo primero por tratar es la pertinencia de las preguntas. Cuando un estudiante tiene acceso a
+los resultados de las encuestas lo que ve es un numero que va asociado a cada profesor; sin embargo,
+la encuesta incluye preguntas por la puntualidad, el respeto, el sistema de evaluacion, la calidad de
+las explicaciones y el manejo conceptual. Es claro que, aunque todos estos elementos son muy
+importantes para la pedagogia de calidad, no son intercambiables.
+
+El segundo problema se junta con el primero: los estudiantes nunca saben como se llega al
+numero del profesor: si es un promedio ponderado o simple, 0 si no es un promedio sino un sistema
+de escalas, si esta normalizado por departamentos, facultades, o para la universidad, o si es
+acumulativo de todas las veces que el profesor ha dictado ese curso o no. El resultado de las dos
+falencias mencionados es frecuente: la encuesta no es un criterio util para la seleccion de un profesor
+por parte de los estudiantes. Bien podria ser que un profesor puntual y con falencias en sus habilidades
+explicativas tenga el mismo promedio que una profesora que llega a todas las clases 10 minutos tarde,
+pero que nadie tiene reproche sobre sus explicaciones. Nuevamente, estos dos perfiles no son
+
+intercambiables.
+
+6.1) Encuestas. Soluciones tentativas.
+
+Teniendo en cuenta lo expuesto anteriormente, proponemos dos medidas sencillas que, a nuestro
+criterio, a pesar de que no solucionan por completo el problema, son un paso en la direccion correcta:
+1) Que en los resultados de las encuestas se publique el desempefno del profesor en cada pregunta
+especifica. De esta forma, el estudiante podra buscar entre los criterios que él encuentre convenientes
+a la hora de escoger un profesor o profesora, y la encuesta podria volverse de utilidad. 2) Que a mitad
+del semestre se haga una encuesta informal para que el profesor pueda corregir las fallas mas grandes
+que los estudiantes estén notando. Este es un sistema que depende mucho de la voluntad del profesor
+y solo requiere de una herramienta utilizando Google, por ejemplo. La idea es que el profesor no
+tenga que esperar hasta volver a dar el curso para poder capitalizar a partir de la retroalimentacion de
+los estudiantes. De hecho, es una practica comun entre varios profesores de la facultad de Ciencias
+
+Sociales y ha dado muy buenos resultados.
+
+7) Seguimiento de los resultados. Diagnostico.
+
+15

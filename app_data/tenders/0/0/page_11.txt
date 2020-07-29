@@ -1,0 +1,27 @@
+Propuestas Computacional
+
+Una de las herramientas transversales a toda la carrera es la computaci6n. Es necesaria tanto para los
+cursos teoricos como para los laboratorios. Esto es apenas natural, pues ya sea que un fisico se dedique
+a la teoria o la experimentacion o continte su vida en otras disciplinas, es claro que los métodos
+computacionales son una ventaja enorme en el mundo profesional. Sin embargo, sentimos que el
+panorama actual que se presenta en nuestra carrera podria ser mejorado y por ello sometemos las
+
+siguientes propuestas a su consideracion.
+
+5) Extension de la formacion computacional. Diagndstico.
+
+Hoy en dia, los cursos exclusivamente computacionales suman un total de 8 créditos. Estos se reparten
+como sigue: Algoritmica y Programacion | (3 créditos), Herramientas Computacionales (1 crédito),
+y Métodos Computacionales y Laboratorio (4 créditos). También existe el curso Métodos
+Computacionales Avanzados (3 créditos), pero este es una electiva y no se ofrece todos los semestres.
+Ahora bien, Algoritmica y Programacion 1 (APO 1) es un curso que se ensefia en Java? y tiene un
+perfil marcadamente dirigido hacia los problemas de la ingenieria. Es decir, no se presentan casos de
+estudio de la ciencia 0 la matematica. Por esta razon, el Unico espacio que realmente tienen los
+estudiantes de fisica para entrenarse en los métodos computacionales para la fisica es en Herramientas
+
+Computacionales y Métodos Computacionales, para un total de 4 créditos. Sin embargo, como en
+
+3 Sabemos que actualmente existe la idea de cambiar este curso para hacerlo basado en Python. Sin embargo, es
+probable que la metodologia siga siendo parecida a lo expuesto por nosotros.
+
+11

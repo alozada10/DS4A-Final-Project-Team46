@@ -1,0 +1,40 @@
+Herramientas también se ensefa UNIX y Latex, el tiempo real para trabajar problemas cientificos
+usando la computacion se ve notablemente disminuido.
+
+Lo anterior nos parece un problema por diversas razones. Primero, porque se dejan por fuera
+aspectos importantes de la formaciOn computacional como el manejo de clusteres y maquinas
+virtuales. Segundo, porque no se profundiza en la variedad y nivel de metodologias para resolver
+ecuaciones diferenciales de forma computacional. Siendo estas tan importantes para la ciencia y para
+otras areas del conocimiento, sentimos que deberia haber mayor profundidad. Tercero, porque se
+relegan los avances mas recientes en los métodos computacionales como el aprendizaje de maquinas.
+Nuevamente, algunos de estos temas se trabajan en Métodos Computacionales Avanzados, pero al ser
+esta una electiva hay estudiantes que nunca llegan a verla.
+
+Claramente, todos estos problemas surgen a razon de una sola situacion: el tiempo que se le
+dedica en el curriculo a las herramientas computacionales. Al ser tan limitado, en contraste con el
+resto del programa, necesariamente se tienen que dejar por fuera muchos temas o solo abordarlos de
+forma introductoria. Por otro lado, si bien es cierto que algunos profesores incluyen en el desarrollo
+de sus cursos tareas computacionales, al no ser una practica institucionalizada en el departamento, no
+
+es algo que se haga frecuentemente.
+
+5.1) Extension de la formacion computacional. Soluciones tentativas.
+
+Si el mayor problema en la formaciOn computacional es de tiempo, proponemos que el curso
+Herramientas Computacionales pase de tener | crédito a tener 3. Esto no solo repercute en el numero
+de clases en el que los estudiantes se pueden enfrentar a la computacion con la asesoria de un profesor,
+sino que ademas permite trasladar los temas mas basicos de Métodos Computacionales al nuevo
+programa y aprovechar el espacio disponible para ensehar algunos de los tdpicos que hemos
+mencionado. Por ejemplo, seria ideal dedicar por lo menos dos clases en Herramientas
+Computacionales para ensefar los comandos que permiten manejar un cluster. Desde como
+conectarse, hasta como utilizar el encolador. También se podria incluir el comando “screen” para
+crear ventanas que permitan correr codigos en maquinas virtuales sin tener abierta la conexi6n entre
+el computador fisico y el virtual.
+
+Por otro lado, el tiempo obtenido podria ser utilizado para incluir temas de actualidad en el
+area de aprendizaje de maquinas. Lo ideal seria tener un curso dedicado exclusivamente al estudio de
+estas tecnicas (SVM, Random Forests, k-means, GMM, NN, etc.) pero, dado que esto es imposible,
+
+se podrian implementar al menos 4 clases de Métodos Computacionales (obtenidas de las horas extras
+
+12

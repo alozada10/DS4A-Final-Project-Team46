@@ -1,0 +1,25 @@
+Propuesta Experimental
+
+La segunda linea mas importante y recurrente en el curriculo de fisica es la experimental. Cursos de
+laboratorio, proyectos finales, y una serie de laboratorios para investigacion y pedagogia con los mas
+altos niveles de América Latina, son solo algunos ejemplos de la importancia que le da el
+departamento a este aspecto de la ciencia fisica. No obstante, hay ciertas caracteristicas de la
+formacion experimental que sentimos se podrian potenciar, y que no resultarian dificiles de
+implementar dadas las posibilidades que ofrece la reforma académica. A continuacion, nuestros
+
+diagnosticos con algunas soluciones, que dejamos a su disposicion.
+
+4) Formacion estadistica. Diagnostico.
+
+Si bien es cierto que a lo largo del pregrado en fisica los estudiantes se ven enfrentados
+constantemente con el manejo estadistico de datos, ya sea en Fisica Experimental | y 2, Laboratorio
+de Fisica Moderna, Laboratorio Intermedio o inclusive en la monografia; también es cierto que nunca
+recibimos un curso especificamente dedicado a estas herramientas en el que podamos pasar de lo
+apenas basico. Y por pasar de lo apenas basico nos referimos a aprender distribuciones, tipos de
+muestreo, intervalos de confianza, propagacion del error, contraste de hipotesis, significancia
+estadistica, sucesos compatibles e incompatibles, etc.
+
+El anterior es un problema general que encuentran los estudiantes que piensan dedicarse a la
+ciencia experimental, pues no tienen un buen manejo de las herramientas estadisticas comunes que
+
+permiten llevar a cabo un proyecto experimental de calidad. Herramientas que si manejan otros
