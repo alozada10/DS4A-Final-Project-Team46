@@ -19,6 +19,7 @@ targets
 model
 model_2020-07-03
 cnc_profesiones_cargos_2020-07-17
+profile_extractor_no_repo.Dockerfile
 
 
 # C extensions
