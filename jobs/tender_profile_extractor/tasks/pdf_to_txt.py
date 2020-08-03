@@ -42,14 +42,12 @@ def pdf_to_txt(pdf_path: str = None,
                document_id: int = None,
                path: str = "../data/Soportes",
                resolution: int = 500,
-               bin_path: str = settings.POPPLER_PATH,
                tysseract_path: str = r"C:\Program Files\Tesseract-OCR\tesseract.exe"):
     #pytesseract.pytesseract.tesseract_cmd = tysseract_path
 
     pdf_file = pdf_path
-    page_count = pdfinfo_from_path(pdf_path, poppler_path=bin_path)["Pages"]
     input_pdf = PdfFileReader(open(pdf_file, "rb"))
-    max_pages = page_count#input_pdf.numPages
+    max_pages = input_pdf.numPages
 
     image_counter = 1
 
@@ -62,7 +60,7 @@ def pdf_to_txt(pdf_path: str = None,
 
         pages = convert_from_path(pdf_file,
                                   resolution,
-                                  poppler_path=bin_path,
+                                  #poppler_path=bin_path,
                                   first_page=pages_,
                                   last_page=min(pages_ + 10 - 1, max_pages))
 
